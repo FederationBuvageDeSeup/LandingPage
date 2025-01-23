@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Jean Dupont",
+    "achievement": "Record : 5 litres en une soirée !",
+    "image": "assets/images/jean_dupont.jpg"
+  },
+  {
+    "name": "Claire Fontaine",
+    "achievement": "Invention : Cocktail PissMojito.",
+    "image": "assets/images/claire_fontaine.jpg"
+  },
+  {
+    "name": "Émile Zola",
+    "achievement": "Premier buveur officiel en 1894.",
+    "image": "assets/images/emile_zola.jpg"
+  }
+]
