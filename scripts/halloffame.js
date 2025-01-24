@@ -11,29 +11,29 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((data) => {
             data.forEach((member) => {
                     const card = document.createElement("div");
-                card.className = "bg-yellow-100 rounded-lg shadow-md p-4 mb-4 flex flex-col justify-between";
+                    card.className = "bg-yellow-100 rounded-lg shadow-md p-4 mb-4 flex flex-col justify-between";
 
-                const img = document.createElement("img");
-                img.src = member.image;
-                img.alt = member.name;
-                img.className = "w-full object-cover rounded-lg mb-4";
-                img.style.width = "100%";
-                img.style.objectFit = "cover";
+                    const img = document.createElement("img");
+                    img.src = member.image;
+                    img.alt = member.name;
+                    img.className = "w-full object-cover rounded-lg mb-4"; // Set a fixed height
+                    img.style.width = "100%"; // Ensure full width
+                    img.style.objectFit = "cover"; // Maintain aspect ratio and fill the container
 
-                const textContainer = document.createElement("div");
-                const name = document.createElement("h2");
-                name.className = "text-2xl font-bold text-yellow-800";
-                name.textContent = member.name;
+                    const textContainer = document.createElement("div");
+                    const name = document.createElement("h2");
+                    name.className = "text-2xl font-bold text-yellow-800";
+                    name.textContent = member.name;
 
-                const achievement = document.createElement("p");
-                achievement.className = "text-lg mt-2";
-                achievement.textContent = member.achievement;
+                    const achievement = document.createElement("p");
+                    achievement.className = "text-lg mt-2";
+                    achievement.textContent = member.achievement;
 
-                textContainer.appendChild(name);
-                textContainer.appendChild(achievement);
-                card.appendChild(img);
-                card.appendChild(textContainer);
-                hallOfFameContainer.appendChild(card);
+                    textContainer.appendChild(name);
+                    textContainer.appendChild(achievement);
+                    card.appendChild(img);
+                    card.appendChild(textContainer);
+                    hallOfFameContainer.appendChild(card);
                 }
             );
         })
