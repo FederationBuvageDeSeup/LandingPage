@@ -13,5 +13,35 @@
     "name": "Jordan Bardella",
     "achievement": "Premier buveur officiel en 1945.",
     "image": "assets/images/merdella.jpg"
+  },
+  {
+    "name": "Marine Le Pen",
+    "achievement": "A réussi à jongler entre un verre de 33 cl et un discours sur la souveraineté nationale.",
+    "image": "assets/images/marine_le_pen.jpg"
+  },
+  {
+    "name": "Louis Aliot",
+    "achievement": "Record de vitesse pour descendre un demi-litre à Perpignan.",
+    "image": "assets/images/louis_aliot.jpg"
+  },
+  {
+    "name": "Gilbert Collard",
+    "achievement": "Premier à goûter le 'cocktail tradition', mélange maison.",
+    "image": "assets/images/gilbert_collard.jpg"
+  },
+  {
+    "name": "Philippe Olivier",
+    "achievement": "A créé le fameux 'Pisse Royale', un breuvage aux 10 épices secrètes.",
+    "image": "assets/images/philippe_olivier.jpg"
+  },
+  {
+    "name": "Sébastien Chenu",
+    "achievement": "A remporté le concours annuel de la plus belle mousse dorée.",
+    "image": "assets/images/sebastien_chenu.jpg"
+  },
+  {
+    "name": "Stéphane Ravier",
+    "achievement": "A tenu 3 minutes sans respirer après un shot de la 'spéciale fédé'.",
+    "image": "assets/images/stephane_ravier.jpg"
   }
 ]
