@@ -1,17 +1,17 @@
 [
   {
-    "name": "Jean Dupont",
+    "name": "Jean Messiha",
     "achievement": "Record : 5 litres en une soirée !",
-    "image": "assets/images/jean_dupont.jpg"
+    "image": "assets/images/jean_momo.jpg"
   },
   {
-    "name": "Claire Fontaine",
-    "achievement": "Invention : Cocktail PissMojito.",
-    "image": "assets/images/claire_fontaine.jpg"
+    "name": "Jean-Michel Trogneux",
+    "achievement": "Joue dans les deux équipes, bonus sur les toilettes homme et femme",
+    "image": "assets/images/jeanmichel_trogneux.jpg"
   },
   {
-    "name": "Émile Zola",
-    "achievement": "Premier buveur officiel en 1894.",
-    "image": "assets/images/emile_zola.jpg"
+    "name": "Jordan Bardella",
+    "achievement": "Premier buveur officiel en 1945.",
+    "image": "assets/images/merdella.jpg"
   }
 ]
